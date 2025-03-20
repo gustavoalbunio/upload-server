@@ -3,7 +3,6 @@ import { basename, extname } from 'node:path'
 import { Readable } from 'node:stream'
 import { env } from '@/env'
 import { Upload } from '@aws-sdk/lib-storage'
-import { kebab } from 'postgres'
 import { z } from 'zod'
 import { r2 } from './client'
 
